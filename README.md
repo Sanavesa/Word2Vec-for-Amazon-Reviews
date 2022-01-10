@@ -1,2 +1,2 @@
-# Word2Vec-for-Amazon-Reviews
-Train a Word2Vec embedding for Amazon Reviews then use it in a Recurrent NN for sentiment analysis classification using PyTorch, NLTK and Scikit.
+# Word2Vec for Amazon Reviews
+Three models (RNN, GRU and MLP) with an embedding layer for Amazon Reviews for sentiment analysis classification using PyTorch, NLTK and Scikit. Two distinct embeddings were compared; a pretrained Word2Vec model <code>"word2vec-google-news-300"</code> from Google, and another trained from scratch by me. As a baseline, each embedding is deployed on a myriad of models using Scikit such as Perceptron, SVM, Logistic Regression, and Naive Bayes. Then, both embeddings are used in an MLP, RNN, and a GRU model to compare which model and embedding yielded the best result.
